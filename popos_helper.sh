@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#The purpose of this script is to bind all non-boot GPUs to the vfio driver PopOS 20.04
+#The purpose of this script is to bind all non-boot GPUs to the vfio driver in PopOS 20.04
 
 CPU=$(lscpu | grep GenuineIntel | rev | cut -d ' ' -f 1 | rev )
 
